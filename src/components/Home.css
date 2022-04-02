@@ -1,0 +1,15 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5em;
+    padding-right: 5em;
+    /* padding-top: 2em; */
+}
+.text-field{
+    width: 100%;
+    margin-bottom: 20px;
+    color: white;
+}
+.table-head{
+    background: #EEBC1D;
+}

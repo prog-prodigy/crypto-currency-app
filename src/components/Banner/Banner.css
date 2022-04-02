@@ -1,0 +1,39 @@
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    position: relative;
+    height: 400px;
+}
+/* .banner-title{
+    margin: 1em 0;
+} */
+.crypto{
+
+    background: -webkit-linear-gradient(gold, rgb(255, 136, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.stats{
+    color: white !important;
+}
+.header{
+    filter: blur(9px);
+}
+.sign-in-text{
+    font-size: 22px;
+    font-weight: 100;
+    padding-left: 3.5em;
+}
+@media (max-width:900px){
+    .banner-title{
+        font-size: larger;
+    }
+    .logo{
+        max-width: 40px;
+    }
+}
